@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8625007C2804D83D0049381D /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8625007B2804D83D0049381D /* IntroViewController.swift */; };
+		8625007E2804D8530049381D /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8625007D2804D8530049381D /* LeaderboardViewController.swift */; };
+		862500802804D86A0049381D /* LastGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8625007F2804D86A0049381D /* LastGameViewController.swift */; };
+		862500822804D89F0049381D /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862500812804D89F0049381D /* PlayerTableViewCell.swift */; };
+		862500842804DA310049381D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862500832804DA310049381D /* NetworkManager.swift */; };
+		862500862804DA400049381D /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862500852804DA400049381D /* RealmManager.swift */; };
+		862500882804DA530049381D /* Conectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862500872804DA530049381D /* Conectivity.swift */; };
+		8625008A2804DA6B0049381D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862500892804DA6B0049381D /* Extensions.swift */; };
+		8625008D2806F72C0049381D /* MatchPlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8625008C2806F72C0049381D /* MatchPlayerTableViewCell.swift */; };
 		866566F22804C78F00512035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866566F12804C78F00512035 /* AppDelegate.swift */; };
 		866566F42804C78F00512035 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866566F32804C78F00512035 /* SceneDelegate.swift */; };
-		866566F62804C78F00512035 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866566F52804C78F00512035 /* ViewController.swift */; };
 		866566F92804C78F00512035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866566F72804C78F00512035 /* Main.storyboard */; };
 		866566FB2804C79000512035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866566FA2804C79000512035 /* Assets.xcassets */; };
 		866566FE2804C79000512035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866566FC2804C79000512035 /* LaunchScreen.storyboard */; };
 		866567092804C79000512035 /* aoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866567082804C79000512035 /* aoeTests.swift */; };
 		866567132804C79000512035 /* aoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866567122804C79000512035 /* aoeUITests.swift */; };
 		866567152804C79000512035 /* aoeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866567142804C79000512035 /* aoeUITestsLaunchTests.swift */; };
+		D2CAEDC0D9B8B947E96B42DD /* Pods_aoeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7BFB1E374EEC0B7426C27F /* Pods_aoeTests.framework */; };
+		E11843CB3CAA880DBEAF6146 /* Pods_aoe_aoeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107B964699E062A481C0CF28 /* Pods_aoe_aoeUITests.framework */; };
+		FD43B1EBFE67868E68B81633 /* Pods_aoe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4FD382F10B229E7218AABA /* Pods_aoe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +47,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		107B964699E062A481C0CF28 /* Pods_aoe_aoeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aoe_aoeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		270B58A07BC6799B2B8E6540 /* Pods-aoeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aoeTests.release.xcconfig"; path = "Target Support Files/Pods-aoeTests/Pods-aoeTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B7BFB1E374EEC0B7426C27F /* Pods_aoeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aoeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8226D45B0D5D65544291C474 /* Pods-aoe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aoe.release.xcconfig"; path = "Target Support Files/Pods-aoe/Pods-aoe.release.xcconfig"; sourceTree = "<group>"; };
+		8625007B2804D83D0049381D /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		8625007D2804D8530049381D /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		8625007F2804D86A0049381D /* LastGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastGameViewController.swift; sourceTree = "<group>"; };
+		862500812804D89F0049381D /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		862500832804DA310049381D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		862500852804DA400049381D /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		862500872804DA530049381D /* Conectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conectivity.swift; sourceTree = "<group>"; };
+		862500892804DA6B0049381D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8625008C2806F72C0049381D /* MatchPlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchPlayerTableViewCell.swift; sourceTree = "<group>"; };
 		866566EE2804C78F00512035 /* aoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		866566F12804C78F00512035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		866566F32804C78F00512035 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		866566F52804C78F00512035 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		866566F82804C78F00512035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		866566FA2804C79000512035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		866566FD2804C79000512035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +72,11 @@
 		8665670E2804C79000512035 /* aoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		866567122804C79000512035 /* aoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoeUITests.swift; sourceTree = "<group>"; };
 		866567142804C79000512035 /* aoeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABD025230ABD8AE7B176EC52 /* Pods-aoe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aoe.debug.xcconfig"; path = "Target Support Files/Pods-aoe/Pods-aoe.debug.xcconfig"; sourceTree = "<group>"; };
+		CE864EC066B2022FE9434046 /* Pods-aoe-aoeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aoe-aoeUITests.release.xcconfig"; path = "Target Support Files/Pods-aoe-aoeUITests/Pods-aoe-aoeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF29473567021A55C3157D30 /* Pods-aoeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aoeTests.debug.xcconfig"; path = "Target Support Files/Pods-aoeTests/Pods-aoeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3EC4C72184A503454744D7D /* Pods-aoe-aoeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aoe-aoeUITests.debug.xcconfig"; path = "Target Support Files/Pods-aoe-aoeUITests/Pods-aoe-aoeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA4FD382F10B229E7218AABA /* Pods_aoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD43B1EBFE67868E68B81633 /* Pods_aoe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2CAEDC0D9B8B947E96B42DD /* Pods_aoeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E11843CB3CAA880DBEAF6146 /* Pods_aoe_aoeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		862500792804C9C80049381D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8625007B2804D83D0049381D /* IntroViewController.swift */,
+				8625007D2804D8530049381D /* LeaderboardViewController.swift */,
+				8625007F2804D86A0049381D /* LastGameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8625007A2804C9D50049381D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				862500812804D89F0049381D /* PlayerTableViewCell.swift */,
+				8625008C2806F72C0049381D /* MatchPlayerTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8625008B280595590049381D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				862500832804DA310049381D /* NetworkManager.swift */,
+				862500852804DA400049381D /* RealmManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		866566E52804C78F00512035 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +142,8 @@
 				866567072804C79000512035 /* aoeTests */,
 				866567112804C79000512035 /* aoeUITests */,
 				866566EF2804C78F00512035 /* Products */,
+				CCC4E752842BC3D509D83177 /* Pods */,
+				FAE7688FCC7C800FD4C5F401 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +160,13 @@
 		866566F02804C78F00512035 /* aoe */ = {
 			isa = PBXGroup;
 			children = (
+				862500792804C9C80049381D /* Controllers */,
+				8625007A2804C9D50049381D /* Cells */,
+				8625008B280595590049381D /* Managers */,
 				866566F12804C78F00512035 /* AppDelegate.swift */,
 				866566F32804C78F00512035 /* SceneDelegate.swift */,
-				866566F52804C78F00512035 /* ViewController.swift */,
+				862500872804DA530049381D /* Conectivity.swift */,
+				862500892804DA6B0049381D /* Extensions.swift */,
 				866566F72804C78F00512035 /* Main.storyboard */,
 				866566FA2804C79000512035 /* Assets.xcassets */,
 				866566FC2804C79000512035 /* LaunchScreen.storyboard */,
@@ -127,6 +192,29 @@
 			path = aoeUITests;
 			sourceTree = "<group>";
 		};
+		CCC4E752842BC3D509D83177 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABD025230ABD8AE7B176EC52 /* Pods-aoe.debug.xcconfig */,
+				8226D45B0D5D65544291C474 /* Pods-aoe.release.xcconfig */,
+				D3EC4C72184A503454744D7D /* Pods-aoe-aoeUITests.debug.xcconfig */,
+				CE864EC066B2022FE9434046 /* Pods-aoe-aoeUITests.release.xcconfig */,
+				CF29473567021A55C3157D30 /* Pods-aoeTests.debug.xcconfig */,
+				270B58A07BC6799B2B8E6540 /* Pods-aoeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAE7688FCC7C800FD4C5F401 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA4FD382F10B229E7218AABA /* Pods_aoe.framework */,
+				107B964699E062A481C0CF28 /* Pods_aoe_aoeUITests.framework */,
+				5B7BFB1E374EEC0B7426C27F /* Pods_aoeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 866567182804C79000512035 /* Build configuration list for PBXNativeTarget "aoe" */;
 			buildPhases = (
+				9D9B34A2095E8E14F252B014 /* [CP] Check Pods Manifest.lock */,
 				866566EA2804C78F00512035 /* Sources */,
 				866566EB2804C78F00512035 /* Frameworks */,
 				866566EC2804C78F00512035 /* Resources */,
+				B19D57A5BC606665E1E58104 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8665671B2804C79000512035 /* Build configuration list for PBXNativeTarget "aoeTests" */;
 			buildPhases = (
+				E371C85C4E945ED7E4D9170E /* [CP] Check Pods Manifest.lock */,
 				866567002804C79000512035 /* Sources */,
 				866567012804C79000512035 /* Frameworks */,
 				866567022804C79000512035 /* Resources */,
@@ -169,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8665671E2804C79000512035 /* Build configuration list for PBXNativeTarget "aoeUITests" */;
 			buildPhases = (
+				089C648A400EFA0762F34DC5 /* [CP] Check Pods Manifest.lock */,
 				8665670A2804C79000512035 /* Sources */,
 				8665670B2804C79000512035 /* Frameworks */,
 				8665670C2804C79000512035 /* Resources */,
+				C8BD0E0912155FCA686C8966 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +346,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		089C648A400EFA0762F34DC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aoe-aoeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D9B34A2095E8E14F252B014 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aoe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B19D57A5BC606665E1E58104 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aoe/Pods-aoe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aoe/Pods-aoe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-aoe/Pods-aoe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8BD0E0912155FCA686C8966 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aoe-aoeUITests/Pods-aoe-aoeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aoe-aoeUITests/Pods-aoe-aoeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-aoe-aoeUITests/Pods-aoe-aoeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E371C85C4E945ED7E4D9170E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aoeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		866566EA2804C78F00512035 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				866566F62804C78F00512035 /* ViewController.swift in Sources */,
+				862500802804D86A0049381D /* LastGameViewController.swift in Sources */,
+				862500882804DA530049381D /* Conectivity.swift in Sources */,
+				862500862804DA400049381D /* RealmManager.swift in Sources */,
+				8625007C2804D83D0049381D /* IntroViewController.swift in Sources */,
+				862500822804D89F0049381D /* PlayerTableViewCell.swift in Sources */,
+				8625008A2804DA6B0049381D /* Extensions.swift in Sources */,
+				862500842804DA310049381D /* NetworkManager.swift in Sources */,
 				866566F22804C78F00512035 /* AppDelegate.swift in Sources */,
+				8625007E2804D8530049381D /* LeaderboardViewController.swift in Sources */,
+				8625008D2806F72C0049381D /* MatchPlayerTableViewCell.swift in Sources */,
 				866566F42804C78F00512035 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +638,7 @@
 		};
 		866567192804C79000512035 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD025230ABD8AE7B176EC52 /* Pods-aoe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +667,7 @@
 		};
 		8665671A2804C79000512035 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8226D45B0D5D65544291C474 /* Pods-aoe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +696,7 @@
 		};
 		8665671C2804C79000512035 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF29473567021A55C3157D30 /* Pods-aoeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +722,7 @@
 		};
 		8665671D2804C79000512035 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 270B58A07BC6799B2B8E6540 /* Pods-aoeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +748,7 @@
 		};
 		8665671F2804C79000512035 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3EC4C72184A503454744D7D /* Pods-aoe-aoeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +772,7 @@
 		};
 		866567202804C79000512035 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE864EC066B2022FE9434046 /* Pods-aoe-aoeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
